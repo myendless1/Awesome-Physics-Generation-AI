@@ -38,7 +38,7 @@ Propose Neural Newtonian Dynamics (NND) to model physical dynamics in video gene
 </details>
 
 ### A.1.3 Human Preference Alignment
-#### A.1.3.1 [BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models](https://arxiv.org/abs/2509.06040) University of California, Berkeley; Google DeepMind
+#### A.1.3.1 [BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models](https://arxiv.org/abs/2509.06040) Peking University; Beijing Normal University; ByteDance
 <details><summary>Abstract</summary>
 Recent progress in aligning image and video generative models with Group Relative Policy Optimization (GRPO) has improved human preference alignment, yet existing approaches still suffer from high computational cost due to sequential rollouts and large numbers of SDE sampling steps, as well as training instability caused by sparse rewards. In this paper, we present BranchGRPO, a method that restructures the rollout process into a branching tree, where shared prefixes amortize computation and pruning removes low-value paths and redundant depths. BranchGRPO introduces three contributions: (1) a branch sampling scheme that reduces rollout cost by reusing common segments; (2) a tree-based advantage estimator that converts sparse terminal rewards into dense, step-level signals; and (3) pruning strategies that accelerate convergence while preserving exploration. On HPDv2.1 image alignment, BranchGRPO improves alignment scores by up to 16% over strong baselines, while reducing per-iteration training time by nearly 55%. On WanX-1.3B video generation, it further achieves higher Video-Align scores with sharper and temporally consistent frames compared to DanceGRPO.
 </details>
