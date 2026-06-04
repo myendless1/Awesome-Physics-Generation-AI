@@ -1,5 +1,7 @@
 # Awesome Physics + Generative AI
 
+[🇨🇳 中文版](README.zh-CN.md)
+
 A curated map of work at the intersection of generative models, physical reasoning,
 world simulation, and embodied AI.
 
